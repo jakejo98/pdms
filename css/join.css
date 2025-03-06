@@ -1,0 +1,97 @@
+.ly_pop_wrap {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-color: #FFFFFF;
+}
+
+.dimmed {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: #EFEFEF;
+}
+
+.layer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 540px) {
+  .layer {
+    width: calc(100% - 40px);
+  }
+}
+
+@media screen and (min-width: 541px) {
+  .layer {
+    width: 500px;
+  }
+}
+
+.layer_inner {
+  display: flex;
+  flex-direction: column;
+  padding: 50px 20px;
+  background-color: #FFFFFF;
+}
+
+.layer_header {
+  margin-bottom: 50px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo_link {
+  position: relative;
+  width: 192px;
+  height: 30px;
+  background: url('/pdms/img/logo.svg') no-repeat;
+}
+
+.layer_form_item + .layer_form_item {
+  margin-top: 12px;
+}
+
+.layer_form_item input {
+  width: 100%;
+  padding: 14px 14px;
+  border: 1px solid #DDDDDD;
+  border-radius: 4px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #333333;
+}
+
+.layer_form_item input:focus::placeholder {
+  color: transparent;
+}
+
+.layer_form_item input::placeholder {
+  color: #666666;
+}
+
+.btn_layer_form {
+  padding: 13px 0px;
+  margin-top: 50px;
+  border-radius: 4px;
+  background-color: #F54751;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+
+.copyright {
+  margin-top: 20px;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 18px;
+  text-align: center;
+}

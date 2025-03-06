@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:type" content="website"> 
+  <meta property="og:image" content="/pdms/img/op.jpg">
+  <meta property="og:url" content="http://pushcomz.com/pdms">
+  <meta property="og:description" content="PDMS">
+  <meta property="og:title" content="PDMS">
+  <title>PDMS Join</title>
+  <link rel="shortcut icon" href="/pdms/img/favicon.ico">
+  <link rel="stylesheet" href="/pdms/css/reset.css">
+  <link rel="stylesheet" href="/pdms/css/join.css">
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  <script src="/pdms/js/script.js"></script>
+</head>
+<body>
+  <div class="ly_pop_wrap">
+    <div class="dimmed"></div>
+    <div class="layer">
+      <div class="layer_inner">
+        <div class="layer_header">
+          <h1 class="logo">
+            <a href="http://pushcomz.com" class="logo_link">
+              <span class="blind">PDMS Join</span> 
+            </a>
+          </h1>
+        </div>
+        <div class="layer_form_wrap">
+          <form id="layer_form" action="#" class="layer_form">
+            <div class="layer_form_item">
+              <label for="name" class="blind">성함</label>
+              <input type="text" id="name" name="name" placeholder="성함을 입력해주세요." pattern="^[가-힣]+$" required>
+            </div>
+            <div class="layer_form_item">
+              <label for="phone" class="blind">전화번호</label>
+              <input type="tel" id="phone" name="phone" placeholder="전화번호를 입력해주세요." pattern="[0-9]{3}-[0-9]{4}-[0-9]{4}" required>
+            </div>
+            <div class="layer_form_item">
+              <label for="email" class="blind">이메일</label>
+              <input type="email" id="email" name="email" placeholder="이메일 주소를 입력해주세요." required>
+            </div>
+          </form>
+        </div>
+        <button type="submit" form="layer_form" class="btn_layer_form">등록하기</button>
+      </div>
+      <p class="copyright">Copyright &copy; pushcomz design management system. all rights reserved.</p>
+    </div>
+  </div>
+</body>
+</html>
