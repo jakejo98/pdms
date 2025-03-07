@@ -43,16 +43,11 @@
 }
 
 .logo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.logo_link {
-  position: relative;
-  width: 192px;
-  height: 30px;
-  background: url('/pdms/img/logo.svg') no-repeat;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 45px;
+  color: #073863;
+  text-align: center;
 }
 
 .layer_form_item + .layer_form_item {
@@ -81,7 +76,7 @@
   padding: 13px 0px;
   margin-top: 50px;
   border-radius: 4px;
-  background-color: #F54751;
+  background-color: #073863;
   font-size: 16px;
   font-weight: 700;
   line-height: 24px;
