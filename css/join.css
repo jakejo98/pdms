@@ -50,6 +50,16 @@
   text-align: center;
 }
 
+.logo_sub_title {
+  display: inline-block;
+  width: 100%;
+  font-size: 12px;
+  font-weight: 100;
+  line-height: 20px;
+  color: #999;
+  text-align: center;
+}
+
 .layer_form_item + .layer_form_item {
   margin-top: 12px;
 }
@@ -69,7 +79,7 @@
 }
 
 .layer_form_item input::placeholder {
-  color: #666666;
+  color: #bbb;
 }
 
 .btn_layer_form {
